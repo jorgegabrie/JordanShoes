@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Frete {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(243, 247, 255, 1);
+}
+.Frete p {
+    font-size: 24px;
+    font-weight: 500;
+}
+.jordan-img img{
+    display: flex;
+    width: 100%;
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    
+}
+
+.textos{
+    width: 593px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos h3 {
+    font-size: 32px;
+}
+
+.textos p {
+    font-size: 24px;
+    text-align: center;
+}
+.cards {
+    margin-top: 72px;
+    display: flex;
+    width: 1216px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    gap: 32px;
+    margin-bottom: 80px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(243, 247, 255, 1);
+    width: 384px;
+    height: 200px;
+}
+.card span {
+    color: rgba(124, 162, 244, 1);
+    font-size: 16px;
+}
+.sap-nome {
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.preco{
+    font-size: 20px;
+    font-weight: 600;
+
+}
